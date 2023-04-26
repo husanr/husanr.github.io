@@ -6,12 +6,15 @@ export default defineConfig({
   title: "前端每日三省",
   description: "定时更新技术博客或新闻",
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', href: '/images/icon/avator_ico.ico' }]
+  ],
   themeConfig: {
     logo: "/images/Avator/avator_circle.png",
     nav: navConfig(),
 
     sidebar: {
-      '/views/': siderbarChatGPT()
+      '/views/': siderbarGuide()
     },
 
     socialLinks: [
@@ -20,11 +23,18 @@ export default defineConfig({
   }
 })
 
-function siderbarChatGPT() {
+function siderbarGuide() {
   return [
     {
-      text: 'ChatGPT',
+      text: '开始',
       items: [
+        { text: '站长信息', link: '/views/start/info' }
+      ]
+    },
+    {
+      text: 'ChatGPT专栏',
+      items: [
+        { text: '最近爆火的ChatGPT是什么？怎么使用？', link: '/views/ChatGPT/ChatGPT' },
         { text: '使用Laf云平台，两步将ChatGPT接入微信公众号', link: '/views/ChatGPT/wechat' },
         { text: '三分钟把ChatGPT接入Siri，让你的语音助手化身智能AI', link: '/views/ChatGPT/siri' }
       ]

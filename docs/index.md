@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /views/ChatGPT/wechat
+      link: /views/start/info
 
 features:
   - title: 一省
