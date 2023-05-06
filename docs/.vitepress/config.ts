@@ -36,6 +36,7 @@ function siderbarGuide() {
       items: [
         { text: '最近爆火的ChatGPT是什么？怎么使用？', link: '/views/ChatGPT/ChatGPT' },
         { text: '使用Laf云平台，两步将ChatGPT接入微信公众号', link: '/views/ChatGPT/wechat' },
+        { text: '使用AirCode云平台，两步将ChatGPT接入微信公众号', link: '/views/ChatGPT/aircode_wechat' },
         { text: '三分钟把ChatGPT接入Siri，让你的语音助手化身智能AI', link: '/views/ChatGPT/siri' }
       ]
     }
