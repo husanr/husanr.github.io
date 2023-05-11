@@ -7,7 +7,8 @@ export default defineConfig({
   description: "定时更新技术博客或新闻",
   cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: '/images/icon/avator_ico.ico' }]
+    ['link', { rel: 'icon', href: '/images/icon/avator_ico.ico' }],
+    ['meta', { name: 'referrer', content: 'no-referrer' }]
   ],
   themeConfig: {
     logo: "/images/Avator/avator_circle.png",
