@@ -25,7 +25,6 @@
 ```js
 // siri.js
 // 引入必要的库
-// 引入必要的库
 import cloud from '@lafjs/cloud';
 const { v4: uuidv4 } = require('uuid');
 
@@ -35,7 +34,7 @@ const ChatTable = db.collection('siri')
 
 
 // 设置key和模型
-const OPENAI_KEY = process.env.OPENAI_KEY || "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";
+const OPENAI_KEY = process.env.OPENAI_KEY || "YOUR API-Key";
 
 
 export async function main(params, context) {
