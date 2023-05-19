@@ -2,7 +2,7 @@
 
 ## 微信号
 如群二维码过期，可加好友拉进群
-![](/images/Info/wechat_code.png)
+![](/images/Info/wechat_code.jpg)
 
 ## 公众号
 
