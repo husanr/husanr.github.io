@@ -64,6 +64,7 @@ function navConfig() {
           link: "https://mp.weixin.qq.com/s/1e0oZ9aPImnNq7yYvnLG5g"
         }
       ]
-    }
+    },
+    { text: '联系我', link: '/views/start/info' }
   ]
 }
