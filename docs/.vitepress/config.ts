@@ -29,7 +29,7 @@ function siderbarGuide() {
     {
       text: '开始',
       items: [
-        { text: '站长信息', link: '/views/start/info' }
+        { text: '联系方式', link: '/views/start/info' }
       ]
     },
     {
