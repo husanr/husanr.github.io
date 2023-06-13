@@ -8,7 +8,15 @@ export default defineConfig({
   cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/images/icon/avator_ico.ico' }],
-    ['meta', { name: 'referrer', content: 'no-referrer' }]
+    ['meta', { name: 'referrer', content: 'no-referrer' }],
+    // google analytics
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-4V5K0X3ELN', position: 'head' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4V5K0X3ELN');
+    `],
   ],
   themeConfig: {
     logo: "/images/Avator/avator_circle.png",
