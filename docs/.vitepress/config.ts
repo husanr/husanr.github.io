@@ -9,6 +9,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/images/icon/avator_ico.ico' }],
     ['meta', { name: 'referrer', content: 'no-referrer' }],
+    ['meta', { name: 'keywords', content: 'ChatGPT接入微信公众号, ChatGPT, chatgpt, gpt, GPT, 接入微信公众号' }],
+
     // google analytics
     ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-4V5K0X3ELN', position: 'head' }],
     ['script', {}, `
