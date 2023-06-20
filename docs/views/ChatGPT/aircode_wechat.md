@@ -1,4 +1,4 @@
-### 使用AirCode云平台，两步将ChatGPT接入微信公众号
+# 使用AirCode云平台，两步将ChatGPT接入微信公众号
 **最近很火**的`ChatGPT`可以说已经满大街可见了，到处都有各种各样的体验地址，有收费的也有免费的，总之是五花八门、花里胡哨。
 
 **所以呢**，最近我就在研究怎么才能方便快捷的体验到`ChatGPT`的强大功能，其中一个就是：把`ChatGPT`接入公众号。如下图（成果图）:
@@ -9,7 +9,7 @@
 ![欢迎关注体验](https://files.mdnice.com/user/24883/d549421c-6c0e-4239-896b-044bd7667604.png)
 
 下面我来介绍一下具体怎么实现：
-#### 1. 首先注册一个AirCode平台账号
+## 1. 首先注册一个AirCode平台账号
 进入`aircode`官网：`https://aircode.io`
 
 
@@ -313,7 +313,7 @@ module.exports = async function(params, context) {
 2. `chatGPT`的`apiKey`要从openai官网获取，地址如下：`https://platform.openai.com/account/api-keys`
 
 
-#### 2. 第二步在微信公众平台操作
+## 2. 第二步在微信公众平台操作
 首先默认你有一个公众号，然后登录微信公众平台，点开左侧的设置与开发，点击基本设置，服务器配置那里点击修改配置
 
 ![修改配置](https://files.mdnice.com/user/24883/a081c7f0-14b4-426e-ad35-3ad10fb1aacc.png)

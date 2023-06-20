@@ -46,11 +46,12 @@ function siderbarGuide() {
       text: 'ChatGPT专栏',
       items: [
         { text: '最近爆火的ChatGPT是什么？怎么使用？', link: '/views/ChatGPT/ChatGPT' },
-        { text: '使用Laf云平台，两步将ChatGPT接入微信公众号', link: '/views/ChatGPT/wechat' },
+        { text: 'ChatGPT接入微信公众号(Laf)', link: '/views/ChatGPT/wechat' },
+        { text: 'ChatGPT接入微信公众号(AirCode)', link: '/views/ChatGPT/aircode_wechat' },
+        { text: 'ChatGPT接入飞书(Laf)', link: '/views/ChatGPT/feishu' },
         { text: '已认证公众号使用客服接口解决5秒超时问题', link: '/views/ChatGPT/wechat_kefu' },
-        { text: '三步搭建无需魔法的个人专属ChatGPT网站', link: '/views/ChatGPT/web_gpt' },
-        { text: '使用AirCode云平台，两步将ChatGPT接入微信公众号', link: '/views/ChatGPT/aircode_wechat' },
-        { text: '三分钟把ChatGPT接入Siri，让你的语音助手化身智能AI', link: '/views/ChatGPT/siri' }
+        { text: '搭建ChatGPT网站', link: '/views/ChatGPT/web_gpt' },
+        { text: 'ChatGPT接入Siri', link: '/views/ChatGPT/siri' }
       ]
     }
   ]
