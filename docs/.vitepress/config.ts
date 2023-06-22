@@ -53,6 +53,12 @@ function siderbarGuide() {
         { text: '搭建ChatGPT网站', link: '/views/ChatGPT/web_gpt' },
         { text: 'ChatGPT接入Siri', link: '/views/ChatGPT/siri' }
       ]
+    },
+    {
+      text: 'Claude专栏',
+      items: [
+        { text: '如何使用Claude', link: '/views/Claude/use-claude' }
+      ]
     }
   ]
 }
