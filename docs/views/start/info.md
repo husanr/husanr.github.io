@@ -11,4 +11,4 @@
 
 ## 交流群
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/BIsA8SbYnxnAKf6hGziacPKgR0aRW7mx2qceX7u6oeoeyEBSFVVfHont1Hdo1GXqHpJ0yWGTwQR3IicRuAsxVQibQ/0?wx_fmt=png)
+![](https://tqs3ft-image.oss.laf.dev/group.jpg)
