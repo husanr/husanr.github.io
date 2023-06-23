@@ -46,12 +46,13 @@ function siderbarGuide() {
       text: 'ChatGPT专栏',
       items: [
         { text: '最近爆火的ChatGPT是什么？怎么使用？', link: '/views/ChatGPT/ChatGPT' },
-        { text: 'ChatGPT接入微信公众号(Laf)', link: '/views/ChatGPT/wechat' },
-        { text: 'ChatGPT接入微信公众号(AirCode)', link: '/views/ChatGPT/aircode_wechat' },
-        { text: 'ChatGPT接入飞书(Laf)', link: '/views/ChatGPT/feishu' },
-        { text: '已认证公众号使用客服接口解决5秒超时问题', link: '/views/ChatGPT/wechat_kefu' },
         { text: '搭建ChatGPT网站', link: '/views/ChatGPT/web_gpt' },
-        { text: 'ChatGPT接入Siri', link: '/views/ChatGPT/siri' }
+        { text: 'ChatGPT接入微信公众号(AirCode)', link: '/views/ChatGPT/aircode_wechat' },
+        { text: 'ChatGPT接入微信公众号(Laf)', link: '/views/ChatGPT/wechat' },
+        { text: 'ChatGPT接入飞书(Laf)', link: '/views/ChatGPT/feishu' },
+        { text: 'ChatGPT接入钉钉(Laf)', link: '/views/ChatGPT/dingTalk' },
+        { text: 'ChatGPT接入Siri', link: '/views/ChatGPT/siri' },
+        { text: '已认证公众号使用客服接口解决5秒超时问题', link: '/views/ChatGPT/wechat_kefu' },
       ]
     },
     {
