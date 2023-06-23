@@ -2,7 +2,7 @@
 
 >原文地址：https://aircode.cool/xspb3by9fs
 
-1. 进入钉钉官网
+## 1. 进入钉钉官网
 
 - 官网地址：`https://www.dingtalk.com/`
 
@@ -64,7 +64,7 @@
 
 ![申请权限](https://files.mdnice.com/user/24883/138626d9-6561-4be3-b19e-74710f89c0d6.png)
 
-2. 在云平台发布云函数
+## 2. 在云平台发布云函数
 
 - 不会只用laf平台的，见上篇文章 [使用Laf云平台，两步将ChatGPT接入微信公众号](https://husanr.github.io/views/ChatGPT/wechat)
 
@@ -82,11 +82,12 @@ const { Configuration, OpenAIApi } = require('openai');
 // 从环境变量中获取到钉钉和 OpenAI 的相关配置
 const APP_KEY = process.env.DING_APP_KEY || '';// 钉钉的AppKey
 const APP_SECRET = process.env.DING_APP_SECRET || '';//钉钉的AppSecret
-const OPENAI_KEY = process.env.OPENAI_KEY || '';
+const OPENAI_KEY = process.env.OPENAI_KEY || '';//openai的apikey
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-3.5-turbo';
 
 // 创建数据库连接并获取Message集合
 const db = cloud.database();
+// const ChatsTable = db.collection('chats')
 
 // 主方法
 export async function main(param) {
@@ -116,7 +117,7 @@ export async function main(param) {
   if (!OPENAI_KEY) {
     return reply(
       params,
-      '恭喜你已经调通了机器人，现在请进入 AirCode 中配置 OPENAI_KEY 环境变量，完成 ChatGPT 连接。'
+      '你没有配置正确的 OpenAI API Key，请配置过后再次尝试'
     );
   }
 
@@ -172,7 +173,7 @@ function generateSign(timestamp) {
 async function getAccessToken() {
   if (!APP_KEY || !APP_SECRET) {
     throw new Error(
-      '没有正确设置 DING_APP_KEY 和 DING_APP_SECRET 环境变量，请进入 AirCode 中完成设置。'
+      '没有正确设置 APP_KEY 和 APP_SECRET 环境变量，请配置过后再次尝试。'
     );
   }
 
@@ -277,7 +278,7 @@ function handleError(error) {
     if (status === 401) {
       // 401 代表 OpenAI 认证失败了
       errorMessage =
-        '你没有配置正确的 OpenAI API Key，请进入 AirCode 中配置正确的环境变量。';
+        '你没有配置正确的 OpenAI API Key，请配置过后再次尝试。';
     } else if (data.error && data.error.message) {
       // 如果 OpenAI 返回了错误消息，则使用 OpenAI 的
       errorMessage = data.error.message;
@@ -311,7 +312,7 @@ function handleError(error) {
 
 ![粘贴云函数地址](https://files.mdnice.com/user/24883/9270d6b7-a9af-447e-a84c-5ce6c8068008.png)
 
-3. 在app端测试机器人功能
+## 3. 在app端测试机器人功能
 
 - 创建好应用之后会有一个内部群自动创建，我们点击进入内部群
 
