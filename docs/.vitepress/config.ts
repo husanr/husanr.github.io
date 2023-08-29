@@ -19,6 +19,14 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', 'G-4V5K0X3ELN');
     `],
+    [
+      'script', 
+      { 
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2968024992497532', 
+        crossorigin: 'anonymous',
+        position: 'head'
+      }
+    ]
   ],
   themeConfig: {
     logo: "/images/Avator/avator_circle.png",
