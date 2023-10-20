@@ -1,6 +1,6 @@
 # 如何使用claude-新
 
-### 1. 进入Claude官网（需魔法）
+## 1. 进入Claude官网（需魔法）
 - 地址： **https://authropic.com**
 - 点击按钮 Talk to Claude
 
@@ -17,7 +17,7 @@
 ![注册](https://files.mdnice.com/user/24883/0c384309-eed7-4b1a-805e-cd3af142c028.png)
 
 
-### 2. 接码平台接验证码
+## 2. 接码平台接验证码
 
 - 此步骤不再详述，不会的可以参考 [最近爆火的聊天机器人如何使用？](https://husanr.cloud/views/ChatGPT/ChatGPT)
 
@@ -53,6 +53,6 @@
 
 ![](https://files.mdnice.com/user/24883/3a059691-dcb9-4aa6-95b3-f135bd80f7a5.png)
 
-### 3. 测试聊天
+## 3. 测试聊天
 
 ![](https://files.mdnice.com/user/24883/078c3c79-a9b1-473d-a7b9-a357e7ec79e7.png)
