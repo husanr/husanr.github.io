@@ -66,7 +66,8 @@ function siderbarGuide() {
     {
       text: 'Claude专栏',
       items: [
-        { text: '如何使用Claude', link: '/views/Claude/use-claude' }
+        { text: '如何使用Claude', link: '/views/Claude/use-claude' },
+        { text: '如何使用Claude-新', link: '/views/Claude/use-claude-new' }
       ]
     }
   ]
