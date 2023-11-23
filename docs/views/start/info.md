@@ -11,4 +11,4 @@
 
 ## 交流群
 
-![](https://tqs3ft-image.oss.laf.dev/group.jpg)
+![](https://raw.githubusercontent.com/husanr/wechat_gpt_laf/main/group.jpg)
