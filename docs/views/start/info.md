@@ -11,4 +11,4 @@
 
 ## 交流群
 
-![](https://raw.githubusercontent.com/husanr/wechat_gpt_laf/main/group.jpg)
+![](/images/Info/QR-group.png)
